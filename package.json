@@ -1,0 +1,39 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "cfc",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minakshi04/Dashboard.git"
+  },
+  "keywords": [
+    "cfc"
+  ],
+  "author": "Minakshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minakshi04/Dashboard/issues"
+  },
+  "homepage": "https://github.com/minakshi04/Dashboard#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.2",
+    "@mui/x-charts": "^8.11.3",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
